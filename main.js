@@ -53,6 +53,8 @@ const etel2={
 }
 
 /*egy kutya adatai */
+//egy objektum tulajdonképpen olyan mint az adatbázisban egy rekordja
+//Kulcsok az adatbázisban
 const kutya1={
     nev:"Vili",
     fajta:"puli",
@@ -60,6 +62,35 @@ const kutya1={
     magassag:34,
     szul_datum:2020,
     szul_hely:"Budapest"
-    
-
 }
+
+const kutya2={
+    nev:"Fruzsinna",
+    fajta:"keverék",
+    szin:"tarka",
+    magassag:34,
+    szul_datum:2023,
+    szul_hely:"Budapest"
+}
+
+const kutyalista=[
+    {
+    nev:"Vili",
+    fajta:"puli",
+    szin:"fekete",
+    magassag:34,
+    szul_datum:2020,
+    szul_hely:"Budapest"    
+    },
+    {
+    nev:"Fruzsinna",
+    fajta:"keverék",
+    szin:"tarka",
+    magassag:34,
+    szul_datum:2023,
+    szul_hely:"Budapest"
+    }
+
+]
+//hogy érem el a Vili szinét
+console.log(kutyalista[0].szin)
